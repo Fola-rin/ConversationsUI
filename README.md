@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Conversations UI Project
 
 This project was built by Oyeleke Afolarin.
 
