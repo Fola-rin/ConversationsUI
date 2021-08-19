@@ -3,4 +3,4 @@
 This project was built by Oyeleke Afolarin.
 
 
-Click on [Coversations UI](https://github.com/facebook/create-react-app) to view it in the browser.
+Click on [Coversations UI](https://coversationsui.netlify.app/) to view it in the browser.
