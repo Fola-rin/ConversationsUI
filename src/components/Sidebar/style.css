@@ -1,0 +1,52 @@
+.side-bar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background: grey;
+	color: #fff;
+	z-index: 2;
+}
+
+.side-bar .logo-container {
+	background-color: #056199;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.side-bar .logo-container svg {
+	font-size: 36px;
+}
+.sidebar-icons-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	height: calc(100vh - 70px);
+	background-image: linear-gradient(#0d466f, #191e34);
+}
+.sidebar-icons-container .icons-wrapper .icon {
+	margin-bottom: 10px;
+}
+.sidebar-icons-container .icons-wrapper .icon,
+.sidebar-icons-container .goto-icon {
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 7px;
+}
+
+.sidebar-icons-container .icons-wrapper .icon:hover,
+.sidebar-icons-container .goto-icon:hover {
+	background: #ffffff3b;
+}
+
+.sidebar-icons-container .icons-wrapper .icon.active {
+	background: #ffffff3b;
+}
